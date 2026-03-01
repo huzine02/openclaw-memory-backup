@@ -1,75 +1,70 @@
-# HEUS Board — Daily War Room — 28/02/2026 (Samedi)
+# HEUS Board — Daily War Room — 01/03/2026 (Dimanche)
 
-## 📊 KPI J-1 (27/02)
+## 📊 KPI J-1 (28/02) — Clarity
 | Métrique | Valeur | Tendance |
 |---|---|---|
-| Users Clarity | 57 | ↗️ (vs ~22 GA moyenne) |
-| Users GA4 | 6 | ⚠️ divergence massive vs Clarity |
-| Bounce rate | 18.2% | ✅ meilleur de la semaine |
-| Pages/session | ~12 | ✅ engagement exceptionnel |
-| Returning users | 0 | 🔴 CRITIQUE — zéro rétention |
-| Abonnés payants | 0 | 🔴 pas de conversion |
-| Leads capturés | inconnu | ⚠️ à vérifier Firestore |
+| Users Clarity | 459 (cumul 22/02→01/03) | - |
+| LCP réel | 2.1s | ✅ fixé (vs 6.95s avant) |
+| Pages/session | 1.0 | 🔴 trop bas |
+| Returning users | 0 | 🔴 CRITIQUE |
+| Abonnés payants | 0 (1 test Hocine) | 🟡 funnel fixé |
+| Leads capturés | 0 (formulaire déployé aujourd'hui) | 🟡 trop tôt |
+| Facebook sessions | 36 | ✅ source #1 |
 
-## 🎯 TOP 3 ACTIONS DU JOUR
+## 🔥 ACTIONS EXÉCUTÉES AUJOURD'HUI
 
-### 1. FIX RÉTENTION — Zéro returning users
-- **Owner** : Growth Engineer
-- **Deadline** : 28/02 18h
-- **Action** : Implémenter push notification PWA ou email J+1 de relance pour les visiteurs qui ont utilisé /analyseur. Vérifier que le popup lead magnet fonctionne et capture bien.
-- **RAG** : 🔴
+### Bloc 1 — Gouvernance (matin)
+- ✅ HEUS Board centralisé dans MEMORY.md (10 rôles, cadence, logs)
+- ✅ HEUS Operating Standard v1 (`memory/HEUS-OPERATING-STANDARD.md`)
+- ✅ Disaster Recovery plan + 2 crons backup/audit
+- ✅ Audit complet + refonte crons
 
-### 2. DIAGNOSTIC GA4 vs CLARITY — Écart x10
-- **Owner** : Data Analyst
-- **Deadline** : 28/02 16h
-- **Action** : Vérifier que le tag GA4 G-YRJ14669GD fire correctement sur toutes les pages (surtout /analyseur et /calculateur). Comparer avec Clarity. Probable : ad-blockers ou tag mal injecté en SPA.
-- **RAG** : 🟡
+### Bloc 2 — Board S10 5 tâches D1-D5 (13h50 → 14h30)
+- ✅ D1: Lead capture /analyseur (Firestore + GA4 events) → `1ef6bb0`
+- ✅ D2: Double CTA /pricing → `140228c`
+- ✅ D3: GA4 SPA tracking (RouteAnalyticsTracker) → `f7a58e7`
+- ✅ D4: LinkedIn token OK + Kaspersky débloqué
+- ✅ D5: LCP pass 1 (fonts preload, TBT 500ms) → `1e99f5f`
 
-### 3. INDEXATION SEO — 63 articles enrichis, vérifier couverture
-- **Owner** : Acquisition Ops
-- **Deadline** : 28/02 20h
-- **Action** : Vérifier dans GSC combien des 63 articles sont indexés. Relancer IndexNow pour ceux non indexés. Objectif : 50+ pages indexées.
-- **RAG** : 🟡
+### Bloc 3 — Crons + 7 points Board (14h30 → 15h30)
+- ✅ Crons nettoyés (TikTok#2 supprimé, FB+backup suspendus)
+- ✅ LinkedIn post #9 publié (prise de sang + 4 marqueurs)
+- ✅ Email séquence J0 testée + J1/J3/J7 en place
+- ✅ GSC audit: 37/72 indexées, IndexNow relancé
+- ✅ SIRET footer → `158f3a0`
+- ✅ Funnel GA4 configuré (568 pageviews → 1 analyzer_complete → 44 pricing_view → 9 checkout_start)
+- ✅ Git remote OK (openclaw-memory-backup)
 
-## 📋 KPI CIBLE CE SOIR (28/02 23h)
-- Users Clarity : ≥50 (maintenir)
-- Diagnostic GA4 terminé → root cause identifiée
-- Au moins 1 action rétention déployée ou spécifiée
-- IndexNow relancé sur articles manquants
+### Bloc 4 — Stripe fix (15h30 → 16h00)
+- ✅ Checkout redirect HashRouter → BrowserRouter → `0dfb271`
+- ✅ Annulation inline (window.confirm bug) → `ca11038`
+- ✅ Premier paiement réel test réussi (Hocine, vraie carte)
+- ⚠️ Firebase Functions pas encore re-déployées (fix serveur en attente)
 
-## 🚧 BLOCAGES À ESCALADER
-1. **Token LinkedIn API** — potentiellement expiré (403 signalé). Si crons LinkedIn échouent → renouveler manuellement (OAuth). Owner : Hocine.
-2. **Bing IndexNow 403** — bloqué côté Bing. Pas critique (Google prioritaire).
-3. **LCP 6.95s** 🔴 — performance très mauvaise. Impact SEO direct. Besoin d'un sprint perf (images, lazy load, code splitting). Owner : SRE.
+### Bloc 5 — Facebook stratégie + exécution (16h00 → 18h06)
+- ✅ Stratégie Facebook validée par Board → `memory/facebook-strategy.md`
+- ✅ 3 crons Facebook configurés (posts 12h, liens 19h, engage 14h)
+- ✅ Cron Facebook réactivé (source #1 coupée depuis 28/02)
+- ✅ 3 posts publiés dans 3 groupes (2 en attente modération, 1 live)
+- ✅ 1 commentaire valeur (sans lien) publié
+- ⏳ Liens en commentaire → à ajouter dans 1-2h
 
-## 📊 STATUT RAG TÂCHES OUVERTES
+## 🎯 PROCHAINES ACTIONS (<24h)
 
-| Tâche | Owner | Status |
-|---|---|---|
-| 63 articles enrichis 1800+ mots | ✅ DONE | 🟢 |
-| Meta descriptions fixées | ✅ DONE | 🟢 |
-| Titres 2025→2026 | ✅ DONE | 🟢 |
-| Returning users = 0 | Growth Engineer | 🔴 |
-| GA4 vs Clarity divergence | Data Analyst | 🔴 |
-| LCP 6.95s | SRE | 🔴 |
-| Lead magnet email : séquence santé | CRO | 🟡 pas commencé |
-| Quora 1 réponse/jour | Acquisition Ops | 🟡 en cours |
-| LinkedIn crons actifs | Acquisition Ops | 🟡 token à vérifier |
-| Medium 2 articles/semaine | Acquisition Ops | 🟢 en cours |
-| Reddit infiltration | Acquisition Ops | 🔴 pas commencé |
-| Pinterest access token | Growth Engineer | 🔴 pas commencé |
-| Reels/Shorts filmage | Hocine | 🔴 bloqué (besoin filmage) |
-| Stripe rename BH Digital | Compliance | 🟡 mineur |
-| Email contact@ configuré | ✅ DONE | 🟢 |
-| Nouveau lead magnet santé | CRO | 🔴 pas commencé |
+| # | Action | Owner | Deadline | RAG |
+|---|---|---|---|---|
+| 1 | Ajouter liens en commentaire sur posts FB approuvés | Acquisition Ops | 01/03 20h | 🟡 |
+| 2 | Compléter engagement pur FB (9-14 commentaires restants) | Acquisition Ops | 01/03 21h | 🟡 |
+| 3 | Re-déployer Firebase Functions (fix Stripe serveur) | SRE | 02/03 | 🟡 |
+| 4 | Maillage interne (pages/session 1.0 → 2.0) | CRO | 03/03 | 🔴 |
+| 5 | Email follow-up post-outil (0 returning users) | Growth Eng | 04/03 | 🔴 |
+| 6 | Rejoindre 5-8 nouveaux groupes FB cibles | Acquisition Ops | 05/03 | 🟡 |
 
-## 🧠 SIGNAL MARCHÉ
-- Samedi = trafic organique généralement plus bas. Bon jour pour travail technique.
-- 63 articles enrichis mais indexation pas encore vérifiée post-enrichissement.
-- L'analyseur prise de sang reste le top asset (34% des sessions).
+## 🚧 BLOCAGES
+- Firebase Functions deploy → nécessite `firebase deploy --only functions`
+- Remote git privé → Hocine doit configurer
+- Reels/Shorts → Hocine doit filmer (30 scripts prêts)
 
-## ⚡ DÉCISION Chief Execution Officer
-Aujourd'hui est un **jour technique** (samedi). Priorité absolue :
-1. Comprendre pourquoi GA4 sous-reporte massivement → on ne peut pas piloter sans data fiable
-2. Attaquer le LCP 6.95s → Google pénalise, c'est du trafic perdu
-3. Préparer le mécanisme de rétention → 0 returning = fuite totale du funnel
+## ⚡ DÉCISION CEO
+Journée la plus productive depuis le lancement. 5 tâches D1-D5 + Stripe + Facebook en une session.
+Priorité demain : **Firebase deploy** + **maillage interne** + **continuer Facebook organique**.

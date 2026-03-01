@@ -12,12 +12,11 @@
 !HEARTBEAT.md
 !MEMORY.md
 
-# Strategy continuity
+# Strategy continuity — ALL memory files
 !memory/
-memory/*
-!memory/HEUS-OPERATING-STANDARD.md
-!memory/HEUS-STRATEGY-THREAD.md
-!memory/DISASTER-RECOVERY.md
-!memory/daily-war-room.md
-!memory/weekly-growth-review.md
-!memory/2026-03-01.md
+!memory/*
+
+# Sensitive files to exclude
+memory/*.key
+memory/*.secret
+memory/*.env

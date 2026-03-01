@@ -4,6 +4,7 @@
 - **Site** : https://seche10semaines.fr (Vercel, repo `seche10-semaines-debug`)
 - **Repo** : C:\Users\huzine\projects\seche10-semaines-debug
 - **GitHub** : https://github.com/huzine02/seche10-semaines-debug
+- **Backup workspace OpenClaw** : https://github.com/huzine02/openclaw-memory-backup (tout sauf clés)
 - **Stack** : React, Firebase (Blaze), Stripe LIVE, Vercel auto-deploy
 - **Domaine** : OVH, DNS → Vercel
 - **Prix** : 29€/mois récurrent (price_1T2ptbDWHAsAimG7RUeXVrjR)
@@ -24,7 +25,9 @@
 - Person URN : urn:li:person:gygD2msLxI
 - Scope : w_member_social (profil perso uniquement)
 - API : utiliser v2/ugcPosts (PAS l'API REST versionnée, elle bug)
-- Token valide ~2 mois (obtenu 21/02/2026)
+- Token valide ~2 mois (renouvelé 01/03/2026)
+- Scope: w_member_social uniquement (pas de lecture profil, pas de commentaires API)
+- Commentaires avec lien: à poster manuellement par Hocine
 - Redirect URI : https://seche10semaines.fr/auth/linkedin/callback
 
 ## Pinterest API
@@ -184,7 +187,7 @@ Erreurs : trafic vers landing au lieu du calculateur, articles non recyclés, tr
 - ✅ Soumettre sitemap Google Search Console — fait 22/02
 - ❌ Reddit/Quora (templates prêts)
 - ❌ Filmer Reels (30 scripts prêts)
-- ❌ Stripe : renommer → "BH Digital"
+- ✅ Stripe : garder "BH Digital" (décision Hocine 01/03)
 - ❌ Vrais témoignages (remplacer placeholders quand premiers clients)
 - ❌ Partenariats médecins/pharmacies/mutuelles (phase 4)
 

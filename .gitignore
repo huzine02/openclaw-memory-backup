@@ -1,0 +1,23 @@
+# Strategic backup scope (safe)
+*
+
+# Keep git metadata control files
+!.gitignore
+!BACKUP-SCOPE.md
+
+# Core identity/context
+!AGENTS.md
+!SOUL.md
+!USER.md
+!HEARTBEAT.md
+!MEMORY.md
+
+# Strategy continuity
+!memory/
+memory/*
+!memory/HEUS-OPERATING-STANDARD.md
+!memory/HEUS-STRATEGY-THREAD.md
+!memory/DISASTER-RECOVERY.md
+!memory/daily-war-room.md
+!memory/weekly-growth-review.md
+!memory/2026-03-01.md

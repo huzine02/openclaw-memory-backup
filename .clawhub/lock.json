@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "skills": {
+    "summarize": {
+      "version": "1.0.0",
+      "installedAt": 1771423301986
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1771423409660
+    },
+    "model-usage": {
+      "version": "1.0.0",
+      "installedAt": 1771423505699
+    },
+    "video-frames": {
+      "version": "1.0.0",
+      "installedAt": 1771423567081
+    },
+    "nano-banana-pro": {
+      "version": "1.0.1",
+      "installedAt": 1771423577148
+    },
+    "gifgrep": {
+      "version": "1.0.1",
+      "installedAt": 1771423588216
+    },
+    "openai-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1771423614337
+    },
+    "blogwatcher": {
+      "version": "1.0.0",
+      "installedAt": 1771423643716
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1771423654673
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1771423757087
+    },
+    "trello": {
+      "version": "1.0.0",
+      "installedAt": 1771423769133
+    },
+    "himalaya": {
+      "version": "1.0.0",
+      "installedAt": 1771423779431
+    },
+    "session-logs": {
+      "version": "1.0.0",
+      "installedAt": 1771423807672
+    },
+    "openai-image-gen": {
+      "version": "1.0.1",
+      "installedAt": 1771424336751
+    },
+    "openclaw-github-assistant": {
+      "version": "2.0.1",
+      "installedAt": 1771424428177
+    },
+    "pr-review": {
+      "version": "1.0.0",
+      "installedAt": 1771424447588
+    },
+    "github-cli": {
+      "version": "1.0.0",
+      "installedAt": 1771424465683
+    },
+    "linear-issues": {
+      "version": "1.0.0",
+      "installedAt": 1771424477129
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1771578786087
+    }
+  }
+}

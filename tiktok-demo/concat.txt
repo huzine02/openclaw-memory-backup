@@ -1,0 +1,7 @@
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_0.mp4'
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_1.mp4'
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_2.mp4'
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_3.mp4'
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_4.mp4'
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_5.mp4'
+file 'C:/Users/huzine/.openclaw/workspace/tiktok-demo/slide_6.mp4'

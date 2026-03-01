@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1584px; height: 396px; overflow: hidden; }
+.banner {
+  width: 1584px;
+  height: 396px;
+  background: linear-gradient(135deg, #070e1a 0%, #0a0f1a 40%, #0d1528 100%);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 80px;
+  position: relative;
+  overflow: hidden;
+}
+/* Subtle glow */
+.banner::before {
+  content: '';
+  position: absolute;
+  bottom: -60px;
+  right: -60px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(0,184,148,0.08) 0%, transparent 70%);
+}
+.banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse 80% 50% at 70% 50%, rgba(0,184,148,0.04) 0%, transparent 70%);
+}
+/* Subtle grid */
+.grid {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: right;
+}
+.title {
+  font-family: 'Instrument Serif', serif;
+  font-size: 72px;
+  color: #fff;
+  letter-spacing: -0.03em;
+  line-height: 1.0;
+}
+.title span {
+  color: #00B894;
+}
+.subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  color: #94A3B8;
+  font-weight: 400;
+  margin-top: 12px;
+  letter-spacing: 0.02em;
+}
+.url {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  color: #00B894;
+  font-weight: 600;
+  margin-top: 14px;
+  letter-spacing: 0.05em;
+}
+.stats {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+.stat {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.35);
+  font-weight: 500;
+}
+.stat strong {
+  color: rgba(255,255,255,0.6);
+}
+/* Accent line */
+.line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 0%, #00B894 50%, transparent 100%);
+}
+</style>
+</head>
+<body>
+<div class="banner">
+  <div class="grid"></div>
+  <div class="content">
+    <div class="title">Sèche<span>10</span>Semaines</div>
+    <div class="subtitle">Programme Métabolique Scientifique</div>
+    <div class="url">seche10semaines.fr</div>
+    <div class="stats">
+      <div class="stat"><strong>Mifflin-St Jeor</strong> · Algorithme</div>
+      <div class="stat"><strong>63</strong> articles</div>
+      <div class="stat"><strong>Hommes 35-55 ans</strong></div>
+    </div>
+  </div>
+  <div class="line"></div>
+</div>
+</body>
+</html>

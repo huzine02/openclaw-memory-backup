@@ -1,0 +1,15 @@
+{
+  "author": "urn:li:person:gygD2msLxI",
+  "lifecycleState": "PUBLISHED",
+  "specificContent": {
+    "com.linkedin.ugc.ShareContent": {
+      "shareCommentary": {
+        "text": "Ton taux de sucre est \"normal\" ?\n\nC'est peut-être le problème.\n\nLe seuil officiel du diabète est à 1,26 g/L.\nMais les dégâts métaboliques commencent bien avant.\n\nJ'ai creusé les études récentes.\nCe que j'ai trouvé m'a fait changer ma façon de manger.\n\nPas par peur.\nPar logique.\n\nVoici ce que j'ai retenu :\n\n→ Dès 0,95 g/L, la résistance à l'insuline s'installe silencieusement\n→ Le corps produit plus d'insuline pour compenser\n→ Résultat : stockage de graisse facilité, surtout au niveau abdominal\n\nLe cercle vicieux :\nGlycémie haute → Insuline haute → Stockage graisse abdominale → Résistance insuline → Glycémie encore plus haute\n\nLes signes invisibles :\n• Coup de barre après le déjeuner\n• Faim 2h après avoir mangé\n• Envies de sucré en fin d'après-midi\n\nC'est pas un manque de volonté.\nC'est un signal métabolique.\n\nL'indicateur oublié : l'HbA1c.\nLa glycémie à jeun = une photo.\nL'HbA1c = un film sur 3 mois.\nIdéalement en dessous de 5,5%.\n\nCe qui fait VRAIMENT baisser la glycémie :\n1. Protéines en début de repas (ralentit l'absorption du glucose)\n2. Marche de 15 min après manger\n3. Réduire les glucides raffinés (pas tous les glucides)\n\nProchaine prise de sang : demande glycémie à jeun + HbA1c + insulinémie à jeun.\nCes 3 chiffres ensemble racontent la vraie histoire.\n\nTa dernière glycémie à jeun, c'était combien ?\n(C'est sur ta dernière prise de sang, ligne \"Glycémie\")\n\n#Glycémie #DiabèteType2 #PréventionDiabète #SantéMétabolique #NutritionSanté"
+      },
+      "shareMediaCategory": "NONE"
+    }
+  },
+  "visibility": {
+    "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
+  }
+}

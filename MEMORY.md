@@ -148,6 +148,20 @@
 - **Partenariats futurs** : médecins généralistes, pharmacies, mutuelles, AFD, influenceurs santé (Dr Jimmy Mohamed, Michel Cymes)
 - **Timeline** : mois 1 → 975€, mois 2 → 3 120€, mois 3 → 6 630€, mois 4 → 11 310€, mois 5 → 15 015€
 
+## Post Bridge API (validé 03/03/2026) ✅
+- **Service** : Automation multi-plateformes (LinkedIn, Facebook, TikTok, Pinterest)
+- **API Key** : pb_live_4HbamxcodV6L8qWqtMjy21
+- **Prix** : $5/mois add-on
+- **Test** : LinkedIn post réussi 03/03 00h10
+- **Usage** : Scale rapide cross-platform (à partir du 03/03)
+- **Comptes connectés** :
+  - 47388 : LinkedIn Hocine (perso)
+  - 47389 : LinkedIn Sèche 10 Semaines (page)
+  - 47390 : TikTok seche10semaines
+  - 47391 : Pinterest huzinepro
+  - 47392 : Facebook Location rentable
+- **Skill** : `~/.openclaw/workspace/skills/post-bridge/`
+
 ## Clé Gemini API (mise à jour 25/02)
 - **Nouvelle** : [REDACTED — stored in secure vault]
 - Ancienne (leaked) : [REDACTED]
